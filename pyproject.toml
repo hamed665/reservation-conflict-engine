@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reservation-conflict-engine"
+version = "0.1.0"
+description = "Transactional, timezone-aware booking with resource conflict detection."
+requires-python = ">=3.11"
+authors = [{name = "Hamed Minaei"}]
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["slotguard*"]

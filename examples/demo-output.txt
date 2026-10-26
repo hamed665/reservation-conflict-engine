@@ -1,0 +1,21 @@
+$ python -m slotguard
+{"rejected": "resource is already reserved"}
+[
+  {
+    "tenant": "demo-clinic",
+    "booking_id": "a",
+    "resource": "room-1",
+    "starts": 1793512800,
+    "ends": 1793514600,
+    "cancelled": 0
+  },
+  {
+    "tenant": "demo-clinic",
+    "booking_id": "c",
+    "resource": "room-1",
+    "starts": 1793514600,
+    "ends": 1793516400,
+    "cancelled": 0
+  }
+]
+
